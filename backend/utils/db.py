@@ -9,4 +9,9 @@ def get_db_connection():
         port=3307,
         database='intern_analytics'
     )
+    
+    cursor = connection.cursor()
+    cursor.execute("CREATE DATABASE IF NOT EXISTS intern_analytics")
+    connection.database = 'intern_analytics'
+    
     return connection

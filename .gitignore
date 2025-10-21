@@ -1,0 +1,74 @@
+# Root .gitignore for Intern Progress Analyzer
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+backend/venv/
+backend/env/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+backend/.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Database
+*.db
+*.sqlite
+*.sql~
+
+# Logs
+*.log
+logs/
+backend/logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Backup Files
+*_OLD.*
+*_old.*
+*.backup
+*.bak
+*~
+
+# Flutter/Dart Build
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.dart_tool/
+frontend/pubspec.lock
+
+# Node modules (if any)
+node_modules/
+
+# Test Coverage
+coverage/
+*.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.temp
